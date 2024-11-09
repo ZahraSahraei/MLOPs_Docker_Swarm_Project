@@ -1,0 +1,187 @@
+.home_img{
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust the height to fit the entire screen */
+    background-image: url('assets/img3.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+.img-background{
+       
+    height: 100vh; /* Full height */
+    background-image: url('assets/img2.jpg') ;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.home-description{
+
+    color: rgb(255, 94, 0);
+    font-size: 25px;
+    margin-top:30%;
+}
+
+.link-home{
+
+    color: rgb(253, 253, 253);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.paragraph{
+   color: rgb(201, 9, 9);
+   font-size:20px;
+   font-weight: bold; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 182, 193, 0.5); /* Pink overlay with 50% opacity */
+    pointer-events: none; /* Allow interaction with text */
+}
+
+.btn-predict-again {
+    background-color: #1c8eeb;  
+    color: white;               
+    border: none;   
+    border-radius: 5px;
+    cursor: pointer;           
+}
+
+
+.h2{
+    color: black;
+    opacity: 1;
+    background: rgba(221, 212, 212, 0.5); 
+}
+
+.container-input{
+
+    text-align: center; 
+}
+
+.btn-input {
+
+    display: inline-block; /* Aligns the buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px -40px; 
+    padding: 10px 10px;
+}
+
+.btn-input:last-child {
+    margin-right: 0; /*The last button will have no spaces */
+}
+
+.btn-btn-input:hover {
+    background-color: #e2d7e4;   /* Darker pink on hover */
+}
+
+.btn-prediction{
+    background-color: #1c8eeb;  
+    color: #ffffff;                
+    border: none;  
+    border-radius: 5px;
+    cursor: pointer; 
+    width:180px;
+    justify-content: center; 
+    gap:10px;
+    margin-left: 30px; 
+}
+
+.btn-back{
+
+    background-color: #d935df;
+    color: #ffffff;                
+    border: none;  
+    border-radius: 5px;
+    cursor: pointer; 
+    width: 10%;
+    justify-content: center; /* Placement of buttons in the middle */
+    margin-right:30px; 
+    
+}
+
+.box-input {
+    background: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 50%;
+    height: 650px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Enable vertical scrolling */
+  
+}
+.btn-back-predict-agein {
+    background-color: #d935df; /* Light color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from link */
+}
+
+.btn-light:hover {
+    background-color: #e24dcc; /* Darker green when hovered */
+    border: none;
+}
+
+.custom-table {
+    background-color: #f7f2ff; /* Light purple background for the table */
+}
+
+.custom-table th {
+    background-color: #564581; /* Dark purple for header */
+    color: white; /* White text for header */
+}
+
+.custom-table th, .custom-table td {
+    padding: 15px; /* Padding for cells */
+    text-align: center; /* Center align text */
+}
+
+.custom-table tbody tr:hover {
+    background-color: #e2e3ff; /* Light blue when hovering over a row */
+}
+
+/* Optional: Ensure alternate row colors work with Bootstrap's striped */
+.custom-table tbody tr:nth-child(odd) {
+    background-color: #e3c4f1; /* Light pink for odd rows */
+}
+
+.btn-back-profile{
+ 
+    border:none;  
+    border-radius: 5px;
+    width: 10%;
+    margin-left:15px; 
+    margin-top:20px;
+    cursor: pointer;   
+    margin-bottom: 20px;
+}
+
+.result-page{
+
+    background-color: #e9caec;
+}
+.mt5-title-input {
+
+    margin-top:10px;
+}

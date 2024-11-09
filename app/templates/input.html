@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Input Model Features</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static',filename='stylesheet.css')}}">
+</head>
+<body class="img-background">
+<!-- <img src="static/assets/img1.jpg" class="img"> -->
+
+ <div class="container box-input" style="width: 70%; height: 85%;">
+  
+    <h2 class="mt5-title-input">Enter the Model Features</h2>
+
+    <form method="POST">
+        <div class="form-group">
+            {% for ft in features %}
+            <label>{{ft}}</label>
+            <input type="text" class="form-control" name="{{ft}}" required>
+            {% endfor %}
+        </div>
+        <div class="container-input"> 
+        <button type="submit" class="btn btn-input btn-prediction"> Make Prediction</button>
+        <a href="{{ url_for('main.home') }}"  style="margin-left: 40px;"  class="btn btn-input btn-back">Back</a>
+        </div>
+    </form>
+  </div>
+
+  <!--<div class="container-input"> 
+  <!--<p class=" container sticky_button"> -->
+</body>
+</html>

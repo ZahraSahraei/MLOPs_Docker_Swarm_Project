@@ -1,0 +1,178 @@
+.wrapper {
+    max-width: 500px;
+    border-radius: 10px;
+    margin:90px auto;
+    padding: 20px 40px;
+    box-shadow: 20px 20px 80px rgb(206, 206, 206);
+    
+}
+.login-box {
+    background: rgba(255, 255, 255, 0.2); 
+  
+    padding: 30px;
+    border-radius: 10px;
+    width: 370px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height:400px;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Poppins', sans-serif;
+    /*background: linear-gradient(to top, #fff 10%, rgba(151, 8, 96, 0.4) 90%) no-repeat;*/
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/bg.jpg'); 
+    background-size: cover; /* سایز عکس به صورت کامل */
+    background-repeat: no-repeat; /* تکرار نشود */
+    background-position: center center; /* مرکز صفحه */
+}
+
+.flash-message {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid ;
+    position: relative;
+}
+
+.flash-message .close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+   
+}
+
+.heading-section{
+
+    font-size: 28px;
+    color: #fff; 
+    margin-top: -10px !important;
+}
+
+.have-an-account-link{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px ;
+    font-weight: bold;
+}
+
+.image-column {
+    flex: 1;
+    /*background-image: url('assets/bc2.jpg'); /* مسیر تصویر موردنظر */
+    background-size: cover;
+    background-position: center;
+}
+
+.login-column {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 40px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    font-size: 15px;
+    text-transform: uppercase;
+    width:100%; 
+}
+
+.btn:hover, .btn:active, .btn:focus {
+    outline: none;
+}
+
+.btn.btn-primary {
+    background: #fdcaaf !important;
+    border: 1px solid #fbceb5 !important;
+    color: #000 !important;
+    margin-top: 30px;
+}
+.btn.btn-primary:hover {
+    border: 1px solid #fbceb5;
+    background: transparent;
+    color: #000;
+    
+}
+.btn.btn-primary.btn-outline-primary {
+    border: 1px solid #fbceb5;
+    background: transparent;
+    color: #fbceb5;
+}
+.btn.btn-primary.btn-outline-primary:hover {
+    border: 1px solid transparent;
+    background: #fbceb5;
+    color: #fff; 
+}
+
+.form-control{
+  background: transparent;
+  border: none;
+  height: 50px;
+  color: #161616 !important;
+  border: 1px solid transparent;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  
+}
+
+.form-control{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.form-control:hover, .form-control:focus {
+  background: transparent;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: rgba(255, 255, 255,255); 
+  color:#fff; }
+
+.form-control:focus {
+   border-color: rgba(255, 255, 255, 255);
+   color:#fff; }  
+
+.form-group{
+
+    color:#fff;
+}   
+
+.register-link{
+ 
+    font-size: 15px;
+    color: #643d09; 
+    font-weight: bold;
+}
+
+.register-link:hover{
+
+    font-size: 15px;
+    color: #500505; 
+    font-weight: bold;
+}
+
+.mt-4{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.font{
+    color:white;
+}
+

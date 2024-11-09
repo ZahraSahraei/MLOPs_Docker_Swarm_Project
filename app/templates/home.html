@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static',filename='stylesheet.css')}}">
+
+</head>
+<body class="home_img" >
+<!--<div><img src="static/assets/img16.jpg" class="home_img"></div>-->
+<div class="container text-center">
+    <!--<h1>Breast Cancer Prediction </h1>-->
+    <h4 class="home-description"> This is a Smart Web Service with Docker Swarm</h4>
+    {% if username %}
+    <p class="paragraph">See previous prediction for logged-in users <a class= "link-home" href="{{ url_for('main.profile') }}">profile link</a>
+        or <a class= "link-home" href="{{ url_for('main.input_data') }}">predict again</a>
+        or <a class= "link-home" href="{{ url_for('main.logout') }}">logout.</a>
+    </p>
+    {% else %}
+    <p class="paragraph">Welcome! Please <a class= "link-home" href="{{ url_for('main.login') }}">login</a> or <a class= "link-home" href="{{ url_for('main.register') }}">register</a>
+        to use the AI model.</p>
+    {% endif %}
+</div>
+</body>
+</html>
