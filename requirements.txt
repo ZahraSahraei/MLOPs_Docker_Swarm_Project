@@ -4,4 +4,3 @@ flask-bcrypt
 pycaret
 scikit-learn
 pandas
-Docker_Swarm
