@@ -10,19 +10,31 @@
     align-items: center;
     justify-content: center;
    
-   
 }
-.img-background{
-       
-    height: 100vh; /* Full height */
+
+.img-background-input{
+    width: 100%;
+    height: 100vh;  /* Full height */
     background-image: url('assets/img2.jpg') ;
-    background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat; 
-    display: flex;
+    background-size:cover;
+    background-position:center; 
+    background-repeat:no-repeat ;
     align-items: center;
     justify-content: center;
-   
+
+}
+.img-background-profile{
+     
+    height: 100vh; /* Full height */
+    background-image: url('assets/bg1.jpg') ;
+    background-size:cover;
+    background-position:cover; 
+    background-repeat:repeat ;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px); 
 }
 
 .home-description{
@@ -129,7 +141,7 @@
     overflow-y: auto; /* Enable vertical scrolling */
   
 }
-.btn-back-predict-agein {
+.btn-back-predict-again {
     background-color: #d935df; /* Light color */
     color: white; /* Text color */
     padding: 10px 20px; /* Padding for the button */
@@ -148,7 +160,7 @@
 }
 
 .custom-table th {
-    background-color: #564581; /* Dark purple for header */
+    background-color: #a50a65; /* Dark purple for header */
     color: white; /* White text for header */
 }
 
@@ -168,11 +180,26 @@
 
 .btn-back-profile{
  
-    border:none;  
-    border-radius: 5px;
+    border-radius: 5x;
     width: 10%;
-    margin-left:15px; 
-    margin-top:20px;
+    margin-left:120px; 
+    margin-top:30px;
+    cursor: pointer;   
+    margin-bottom: 20px;
+    background-color: #d3519d; /* Light color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    text-decoration: none; /* Remove underline from link */
+    
+}
+
+.btn-back-profile:hover{
+    background-color: #d3519d; /* Light color */
+    color: white;
+    border: none; 
+    width: 10%;
+    margin-left:120px; 
+    margin-top:30px;
     cursor: pointer;   
     margin-bottom: 20px;
 }

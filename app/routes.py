@@ -41,7 +41,7 @@ def register():
         # Check if the username is already registered
         existing_user = User.query.filter_by(username=username).first()
         if existing_user :
-            flash('This username is already registered. Please log in or use a different username.', 'error')
+            flash('This username is already registered! Please log in or use a different username.', 'warning')
             return redirect(url_for('main.register')) 
         
         #if the username doesn't exist

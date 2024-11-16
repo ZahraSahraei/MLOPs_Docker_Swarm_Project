@@ -5,8 +5,9 @@
 {% block content %}
 
 <div class="container wrapper login-box">
+  <div class="register-column">
     <h2 class="heading-section">Register</h2>
-    <form method="POST">
+      <form method="POST">
         <br>
         <div class="form-group">
             <!--<label>Username</label>-->
@@ -20,13 +21,12 @@
             <!--label>Email</label>-->
             <input type="email" class="form-control" name="email" placeholder="Email" required>
         </div>
-      
         <button type="submit" class="form-control btn btn-primary submit px-3">Register</button>
     </form>
- 
-    <div style="margin-top:15px;">
+    <div style="margin-top:20px">
     <p class="have-an-account-link">Already have an account? <a class= "register-link" href="{{ url_for('main.login') }}">Login here</a>.</p>
     </div>
+ </div>  
 </div>
 {% endblock %}
 
