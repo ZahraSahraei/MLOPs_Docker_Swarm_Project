@@ -6,7 +6,7 @@
 
 ## Overview
 
-The Breast Cancer Prediction Web Service is a Flask-based application designed to assist in the early detection of breast cancer using a machine learning model. This application aims to provide accurate predictions based on user-input data, facilitating timely medical interventions.
+The Breast Cancer Prediction Web Service is a Flask and Docker_Swarm based application designed to assist in the early detection of breast cancer using a machine learning model. This application aims to provide accurate predictions based on user-input data, facilitating timely medical interventions.
 
 ## Project Structure
 ```bash
@@ -29,6 +29,7 @@ The Breast Cancer Prediction Web Service is a Flask-based application designed t
 ├── Dockerfile
 ├── instance
 │   └── users.db
+├── Links.txt
 ├── members.txt
 ├── requirements.txt
 ├── run.sh
@@ -46,7 +47,7 @@ The Breast Cancer Prediction Web Service is a Flask-based application designed t
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/ZahraSahraei/MLOPs_Docker_Swarm_Breast_Cancer.git
+   git clone git@github.com:ZahraSahraei/MLOPs_Docker_Swarm_Breast_Cancer.git
    ```
 
 2. **Setup**: Execute the provided bash script (`setup.sh`) to set up your environment 
@@ -54,13 +55,13 @@ The Breast Cancer Prediction Web Service is a Flask-based application designed t
    chmod +x setup.sh
    ./setup.sh 
    ```
+
 3. **Run the app**: Once the setup is complete, you can run the application 
    ```bash 
    python3 app.py
    ```
 
-
-The application will be available at host: http://188.121.98.206:5000/ .
+The application will be available at the host: http://188.121.98.206:5000/ .
 
 
 ## 
